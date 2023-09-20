@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #1f2937;
+    
+}
+
+.logo {
+    color: #F9FaF8;
+    font-size: 24px;
+    margin-left: 100px;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 15px;
+    margin-right: 100px;
+
+    color: #F9FaF8;
+    font-size: 18px;
+}
+
+/*Team Summary*/
+
+.introduction {
+    background: #1f2937;
+    color: #F9FaF8;
+    font-size: 18px;
+}
+
+.introduction h2 {
+    font-size: 48px;
+    font-weight: bolder
+}
+
+/* Images and bios*/
+
+.information > h2 {
+    text-align: center;
+}
+.cast-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: -40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 40px;
+    background: white;
+}
+
+.bio {
+    width: 200px;
+    font-size: 18px;
+    border: dotted black 2px;
+    background: #E5E7EB;
+
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.portrait {
+    width: 100px;
+
+    height: auto;
+    border: solid 4px #3882f6; 
+    border-radius: 10%; 
+}
