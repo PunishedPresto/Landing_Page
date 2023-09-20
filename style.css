@@ -37,6 +37,7 @@ body {
     background: #1f2937;
     color: #F9FaF8;
     font-size: 18px;
+    width: 100%;
 
     padding-left: 150px;
     padding-right: 150px;
@@ -56,6 +57,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 
     margin-top: -40px;
     margin-left: 150px;
@@ -69,6 +71,7 @@ body {
     font-size: 18px;
     border: dotted black 2px;
     background: #E5E7EB;
+    text-align: center;
 
     display: flex;
     flex-basis: auto;
@@ -78,6 +81,7 @@ body {
     align-items: center;
 
     padding: 20px;
+    margin: 20px;
 }
 
 .portrait {
@@ -96,6 +100,9 @@ body {
     background: #E5E7EB;
     justify-content: center;
     align-items: center;
+    flex-basis: auto;
+
+    height: 300px;
 }
 
 .quote-text {
@@ -111,5 +118,56 @@ body {
     color: #1f2937;
     font-weight: 700;
     margin-top: -30px;
-    margin-right: -300px;
+    margin-right: -400px;
+    width: 200px;
+}
+
+
+/*Popup*/
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    flex-basis: auto;
+    background: #3882f6;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FaF8;
+    border-radius: 15px;
+}
+
+.popup div h3 {
+    margin-bottom: -10px;
+    font-size: 20px;
+}
+
+.popup button {
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: solid 3px #F9FaF8;
+    border-radius: 15px; 
+    color: #F9FaF8;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    background: #1f2937;
+    color: #F9FaF8;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
