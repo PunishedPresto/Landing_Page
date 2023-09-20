@@ -16,7 +16,7 @@ body {
 .logo {
     color: #F9FaF8;
     font-size: 24px;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .header ul {
@@ -25,7 +25,7 @@ body {
     justify-content: space-around;
     list-style-type: none;
     gap: 15px;
-    margin-right: 100px;
+    margin-right: 150px;
 
     color: #F9FaF8;
     font-size: 18px;
@@ -37,6 +37,9 @@ body {
     background: #1f2937;
     color: #F9FaF8;
     font-size: 18px;
+
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .introduction h2 {
@@ -83,4 +86,30 @@ body {
     height: auto;
     border: solid 4px #3882f6; 
     border-radius: 10%; 
+}
+
+/*Quote*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    width: 400px;
+    flex-wrap: wrap;
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-attribute {
+    color: #1f2937;
+    font-weight: 700;
+    margin-top: -30px;
+    margin-right: -300px;
 }
