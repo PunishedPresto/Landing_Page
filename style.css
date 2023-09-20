@@ -10,6 +10,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background: #1f2937;
+    padding-right: 50px;
+    padding-left: 50px;
     
 }
 
@@ -34,19 +36,39 @@ body {
 /*Team Summary*/
 
 .introduction {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
     background: #1f2937;
     color: #F9FaF8;
     font-size: 18px;
     width: 100%;
+}
 
-    padding-left: 150px;
-    padding-right: 150px;
+.introduction div {
+    width: 700px;
 }
 
 .introduction h2 {
     font-size: 48px;
-    font-weight: bolder
+    font-weight: bolder;
+    margin-bottom: -10px;
 }
+
+.introduction button {
+    width: 120px;
+    height: 40px;
+    background: none;
+    border-radius: 15px; 
+    background-color: #3882f6;
+    border: solid 2px #3882f6;
+    color: #F9FaF8;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+
 
 /* Images and bios*/
 
